@@ -3,10 +3,25 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Joachim Schiller</Authors>
+    <Description>A utility class for Visual Studio projects that allows simple string loading form json files for internationalization</Description>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageTags>XML;Export;Import;WPF</PackageTags>
+    <RepositoryUrl>https://github.com/Joschiller/XMLImportExport</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
