@@ -12,3 +12,4 @@ C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\XMLImportExport
 C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\XMLImportExport\XMLImportExport\XMLImportExport\obj\Release\netcoreapp3.1\XMLImportExport.csproj.CoreCompileInputs.cache
 C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\XMLImportExport\XMLImportExport\XMLImportExport\obj\Release\netcoreapp3.1\XMLImportExport.dll
 C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\XMLImportExport\XMLImportExport\XMLImportExport\obj\Release\netcoreapp3.1\XMLImportExport.pdb
+C:\Users\josch\Desktop\Programming_Projects\PROGRAMMING_PROJECTS\XMLImportExport\XMLImportExport\XMLImportExport\obj\Release\netcoreapp3.1\XMLImportExport.csproj.AssemblyReference.cache

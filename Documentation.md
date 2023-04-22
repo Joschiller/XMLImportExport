@@ -129,5 +129,5 @@ public abstract void run()
 Accessible Interface:
 
 ```c#
-public static XElement ExportDataFromTable<DB, T>(DB dbConnection, List<string> columns, Dictionary<string, Func<T, object>> additionalComputedProperties = null, Func<T, bool> filter = null, Dictionary<string, Func<object, object>> mappings = null, Func<T, List<XElement>> computeChildren = null)
+public static XElement ExportDataFromTable<T>(System.Data.Entity.DbSet<T> table, List<string> columns, Dictionary<string, Func<T, object>> additionalComputedProperties = null, Func<T, bool> filter = null, Dictionary<string, Func<object, object>> mappings = null, Func<T, List<XElement>> computeChildren = null) where T : class
 ```
