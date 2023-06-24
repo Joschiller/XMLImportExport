@@ -1,4 +1,4 @@
-# Release
+docs(workflows): update against template# Release
 
 1. Check Workflow documentation
 2. Update [Application Description](./Application%20Description.md) and perform a check of the content for any erros (e.g. using MS Word)
@@ -22,3 +22,10 @@
       - Target branch: "X.X.X-rc"
       - Title: "vX.X.X"
       - Description: Copy from Changelog
+
+# Update against template
+
+> Run once: `git remote add template https://github.com/Joschiller/Project_Template`
+
+1. `git fetch --all`
+2. `git merge template/main --allow-unrelated-histories`
