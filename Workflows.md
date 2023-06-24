@@ -15,5 +15,10 @@
    - remove unnecessary imports
    - check autocompletion hints
 6. FURTHER STEPS ...
-7. Commit changes: "release: Version x.x.x"
-8. Add tag to commit: "Version x.x.x"
+7. Create Release in Repository
+   1. `git checkout -b X.X.X-rc`
+   2. push new branch
+   3. Github > Tags > Create a new Release
+      - Target branch: "X.X.X-rc"
+      - Title: "vX.X.X"
+      - Description: Copy from Changelog
