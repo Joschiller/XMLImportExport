@@ -6,7 +6,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Authors>Joachim Schiller</Authors>
-    <Description>A utility class for Visual Studio projects that allows simple string loading form json files for internationalization</Description>
+    <Description>A utility class for Visual Studio projects that allows simple string loading from json files for internationalization</Description>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageTags>XML;Export;Import;WPF</PackageTags>

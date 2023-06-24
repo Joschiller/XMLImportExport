@@ -13,7 +13,7 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Joachim Schiller")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("A utility class for Visual Studio projects that allows simple string loading form" +
+[assembly: System.Reflection.AssemblyDescriptionAttribute("A utility class for Visual Studio projects that allows simple string loading from" +
     " json files for internationalization")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]

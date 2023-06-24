@@ -7,7 +7,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="file">LICENSE.md</license>
     <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
-    <description>A utility class for Visual Studio projects that allows simple string loading form json files for internationalization</description>
+    <description>A utility class for Visual Studio projects that allows simple string loading from json files for internationalization</description>
     <tags>XML Export Import WPF</tags>
     <repository url="https://github.com/Joschiller/XMLImportExport" />
     <dependencies>
