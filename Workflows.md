@@ -37,5 +37,17 @@
       3. Got to ReadMe > File
       4. Select `Documentation.md`
 
-5. Create branch: "x.x.x-rc"
-6. Add tag to last rc-commit: "x.x.x"
+5. Create Release in Repository
+   1. `git checkout -b X.X.X-rc`
+   2. push new branch
+   3. Github > Tags > Create a new Release
+      - Target branch: "X.X.X-rc"
+      - Title: "vX.X.X"
+      - Description: Copy from Changelog
+
+# Update against template
+
+> Run once: `git remote add template https://github.com/Joschiller/Library_Project_Template`
+
+1. `git fetch --all`
+2. `git merge template/main --allow-unrelated-histories`
