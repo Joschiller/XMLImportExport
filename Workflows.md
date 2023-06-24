@@ -23,15 +23,16 @@
       - Assembly version
       - Assembly file version
    2. set `Build > Configuration Manager` to Release
-   3. right-click project in explorer and click "Pack" OR configure `Package > Generate NuGet package on build`
+   3. run `Build > Build Solution`
+   4. right-click project in explorer and click "Pack" OR configure `Package > Generate NuGet package on build`
       > Packed file will be shown in console output (usually `\bin\Release\...`)
-   4. if expried, create a new API key: https://www.nuget.org/account/apikeys
+   5. if expried, create a new API key: https://www.nuget.org/account/apikeys
       - Glob Pattern: `*`
-   5. publish package:
+   6. publish package:
 
       `dotnet nuget push someFile.nupkg --api-key someKey --source https://api.nuget.org/v3/index.json`
 
-   6. Add ReadMe
+   7. Add ReadMe
       1. Open NuGet > Profile > Manage Packages
       2. Click "Edit" for package in latest version
       3. Got to ReadMe > File
