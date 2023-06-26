@@ -19,9 +19,11 @@ docs(workflows): update against template# Release
    1. `git checkout -b X.X.X-rc`
    2. push new branch
    3. Github > Tags > Create a new Release
+      - Tag: "vX.X.X" -> set to create "on publish"
       - Target branch: "X.X.X-rc"
       - Title: "vX.X.X"
       - Description: Copy from Changelog
+      - Files: add executable or similar binary file
 
 # Update against template
 
